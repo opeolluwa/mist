@@ -1,13 +1,19 @@
 <template>
-  <div role="navigation">
-    <a href="/"> logo</a>
-    <v-btn icon class="d-sm-none"> <v-icon>mdi-menu</v-icon></v-btn>
-    <div class="nav-links">
-      <router-link :to="{ name: 'home' }">Home</router-link>
-      <router-link :to="{ name: 'about' }">About</router-link>
-      <router-link :to="{ name: 'pricing' }">Pricing</router-link>
-      <router-link :to="{ name: 'login' }">Login</router-link>
-    </div>
+  <div role="navigation" class="pb-10">
+    <v-container class="d-flex justify-space-between">
+      <a href="/" class="d-flex align-center justify-flex-start font-weight-bold">
+        F<v-icon class="m" color="var(--white)">mdi-cloud-circle</v-icon>G</a
+      >
+      <v-btn icon class="d-sm-none">
+        <v-icon color="var(--white)">mdi-menu</v-icon></v-btn
+      >
+      <div class="nav-links">
+        <router-link :to="{ name: 'home' }">Home</router-link>
+        <router-link :to="{ name: 'pricing' }">Pricing</router-link>
+        <router-link :to="{ name: 'home' }">Features</router-link>
+        <router-link :to="{ name: 'login' }">Login</router-link>
+      </div>
+    </v-container>
   </div>
 </template>
 
@@ -17,25 +23,32 @@ export default {};
 
 <style lang="scss" scoped>
 div[role="navigation"] {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-image: var(--gradient);
+  color: var(--white);
+  a,
+  & .nav-links a {
+    color: unset;
+    text-decoration: none;
+    font-size: 1.098rem;
+    margin: 0 0.5rem;
+  }
   & .nav-links {
     display: inherit;
     justify-content: space-between;
     a {
-      color: unset;
-      text-decoration: none;
-      font-size: 1.2rem;
-      margin: 0 0.5rem;
+      padding-bottom: 1.2px;
+      border-bottom: 1px solid transparent;
+    }
+    a:hover,
+    a:active {
+      border-bottom: 1px solid var(--white);
+      transition: 300ms ease-in-out all;
     }
   }
 }
 
 /* hide nv links on mobile and smaller screens*/
 @media screen and(max-width:600px) {
-  div[role="navigation"] {
-  }
   div[role="navigation"] .nav-links {
     display: none;
     min-width: 65%;

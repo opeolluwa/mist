@@ -1,5 +1,5 @@
 <template>
-  <v-footer app>
+  <v-footer color="#fff">
     <v-row justify="center" no-gutters align="center">
       <v-btn v-for="link in links" :key="link" text rounded class="my-2 d-none">
         {{ link }}
