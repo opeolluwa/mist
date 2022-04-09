@@ -1,6 +1,6 @@
 // import oly the app entry as static, others must be dynamic
 import Mist from '@/views/home/Index.vue'
-const Home = () => import("@/views/home/Home.vue")
+import Home from "@/views/home/Home.vue"
 const About = () => import("@/views/home/About.vue")
 const Pricing = () => import("@/views/home/Pricing.vue")
 const SignUp = () => import("@/views/home/SignUp.vue")

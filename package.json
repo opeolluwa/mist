@@ -1,8 +1,8 @@
 {
-  "name": "minifier-client",
+  "name": "mist",
   "version": "1.0.0",
   "private": true,
-  "description": "A url minifier",
+  "description": "A url minifier inspired of bit.ly",
   "author": {
     "name": "Adeoye Adefemi Opeoluwa"
   },
