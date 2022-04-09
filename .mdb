@@ -1,0 +1,9 @@
+{
+  "projectName": "misty",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "0e199cd5",
+  "domain": "misty.mdbgo.io"
+}
