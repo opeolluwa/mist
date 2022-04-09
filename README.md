@@ -1,25 +1,54 @@
-# minifier-client
 
-## Project setup
-```
-npm install
+# Mist
+A url minifier inspred of [bit.ly](bit.ly)
+## Features
+
+- Analytics
+- Infinity free
+- Full access control
+- Simplistic
+
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
+
+## Demo
+
+Checkout a live [demo](https://uuidstamps.mdbgo.io)
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Installation
+Build the project
 
-### Lints and fixes files
+```bash
+  npm install my-project
+  cd my-project
 ```
-npm run lint
-```
+    
+## License
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# mist
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at fake@fake.com
+
+
+
+
+## 🚀 About Me
+**Hi, I'm Opeoluwa! 👋**
+
+A full stack developer devoted to building community projects...
+
+If you find RESTify helpful, consider [buying me pizza 🍕](https://getfidia.com/pay/opeolluwa/open-source)
