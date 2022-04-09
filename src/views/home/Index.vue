@@ -1,9 +1,9 @@
 <template>
-  <v-container>
+  <div id="entry">
     <AppNavigation />
-    <router-view />
-    <AppFooter />
-  </v-container>
+    <router-view  />
+    <AppFooter class="d-none" />
+  </div>
 </template>
 
 <script>
@@ -18,5 +18,3 @@ export default {
 };
 </script>
 
-<style>
-</style>
