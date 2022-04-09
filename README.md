@@ -14,4 +14,4 @@ A url minifier inspred of [bit.ly](bit.ly)
 
 ## Feedback
 
-If you have any feedback, please reach out to me on twitter [@\_opeolluwa](twitter.com/_opeolluwa)
+If you have any feedback, please reach out to me on twitter [@\_opeolluwa](https://twitter.com/_opeolluwa)
