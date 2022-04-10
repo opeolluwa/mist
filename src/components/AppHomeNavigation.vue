@@ -1,9 +1,7 @@
 <template>
   <div role="navigation" class="pb-10">
     <v-container class="d-flex justify-space-between">
-      <a href="/" class="d-flex align-center justify-flex-start font-weight-bold">
-        F<v-icon class="m" color="var(--white)">mdi-cloud-circle</v-icon>G</a
-      >
+      <app-logo />
       <v-btn icon class="d-sm-none">
         <v-icon color="var(--white)">mdi-menu</v-icon></v-btn
       >
@@ -18,7 +16,10 @@
 </template>
 
 <script>
-export default {};
+import AppLogo from "./AppLogo.vue";
+export default {
+  components: { AppLogo },
+};
 </script>
 
 <style lang="scss" scoped>
